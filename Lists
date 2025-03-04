@@ -18,6 +18,7 @@ node_t *newNode(int data)
     return node;
 }
 
+
 void printList(node_t *head)
 {
     node_t *cur = head;
@@ -54,6 +55,7 @@ void addLast(node_t **head, int data)
     cur->next = new;
 }
 
+
 void addSecond(node_t **head, int data, node_t **S)
 {
     node_t *new = newNode(data);
@@ -66,20 +68,18 @@ void addSecond(node_t **head, int data, node_t **S)
         }
         return;
     }
-    
-    node_t *cur_second = *S;
-    while (cur_second->next != NULL)
-    {   
-        cur_second = cur_second->next;
-    }
-    cur_second->next = new;
-    
+
+    new->next = *S; 
+    *S = new;
     node_t *cur_first = *head;
-    while (cur_first !=NULL && cur_first->second_next)
+    while (cur_first != NULL && cur_first->second_next)
     {
         cur_first = cur_first->next;
     }
-    cur_first->second_next = new;
+    if (cur_first != NULL)
+    {
+        cur_first->second_next = *S; 
+    }
 }
 
 int main()
@@ -87,7 +87,7 @@ int main()
     node_t *head = NULL;
     int n;
     
-    printf("Input numbers for first list ( input 0 for end ) \n\n");
+    printf("\nInput numbers for first list ( input 0 for end ) \n\n");
     while (1)
     {
         printf (" Element - ");
@@ -119,7 +119,7 @@ int main()
     node_t *current = head;
     char con;
     
-    printf("\nCommands: \nC - current element \nN - next element \nS - secon list element \nH - up element\n");
+    printf("\nCommands: \nC - current element \nN - next element \nS - second list element \nH - up element\n");
     
     while (1)
     {
