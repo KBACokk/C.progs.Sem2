@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int InsertingSort(int arr[], int n) {
     int T = 0, C = 0, M = 0, temp = 0;
     for (int i = 1; i < n; i++) {
@@ -15,5 +17,12 @@ int InsertingSort(int arr[], int n) {
     }
     return T = M + C;
 }
-// Ranodm comment
-// Second random comment
+
+ int main () {
+	int b = 4;
+	int a[] = {4,0,2, 3};
+	InsertingSort(a, 3);
+    for (int i = 0; i < b; i++) {
+        printf ("%d\n", a[i]);
+    }
+ }
