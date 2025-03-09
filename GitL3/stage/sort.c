@@ -16,4 +16,4 @@ int InsertingSort(int arr[], int n) {
     return T = M + C;
 }
 // Ranodm comment
-// Second rand comment
+// Second random comment
