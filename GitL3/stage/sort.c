@@ -19,8 +19,8 @@ int InsertingSort(int arr[], int n) {
 }
 
  int main () {
-	int b = 3;
-	int a[] = {4,0,2};
+	int b = 4;
+	int a[] = {4,0,2, 3};
 	InsertingSort(a, 3);
     for (int i = 0; i < b; i++) {
         printf ("%d\n", a[i]);
