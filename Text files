@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
     FILE *file = fopen(argv[1], "r");
     if (file == NULL) {
         perror("\nОшибка открытия файла");
-        
+
         return 1;
     }
 
@@ -15,9 +15,8 @@ int main(int argc, char *argv[]) {
     int count = 0;
 
     while (fgets(line, sizeof(line), file)) {
-        size_t len = strlen(line);
+        int len = strlen(line);
         if (len > 0 && line[len - 1] == '\n') {
-            line[len - 1] = '\0'; 
             len--;
         }
 
@@ -34,7 +33,7 @@ int main(int argc, char *argv[]) {
 
     fclose(file);
 
-    printf("\nКоличество строк, начинающихся и заканчивающихся на 'I': %d\n\n", count);
+    printf("\nКоличество строк, начинающихся и заканчивающихся на 'I' ->  %d\n\n", count);
 
     return 0;
 }
