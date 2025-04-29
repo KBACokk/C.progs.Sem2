@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(int argc, char *argv[]) {
+
+    FILE *file = fopen(argv[1], "r");
+    if (file == NULL) {
+        perror("\nОшибка открытия файла");
+
+        return 1;
+    }
+
+    char line[1024];
+    int count = 0;
+
+    while (fgets(line, sizeof(line), file)) {
+        int len = strlen(line);
+        if (len > 0 && line[len - 1] == '\n') {
+            len--;
+        }
+
+        if (len > 0 && line[0] == 'I' && line[len - 1] == 'I' ) {
+            count++;
+        }
+    }
+
+    if (ferror(file)) {
+        perror("\nОшибка чтения файла\n");
+        fclose(file);
+        return 1;
+    }
+
+    fclose(file);
+
+    printf("\nКоличество строк, начинающихся и заканчивающихся на 'I' ->  %d\n\n", count);
+
+    return 0;
+}

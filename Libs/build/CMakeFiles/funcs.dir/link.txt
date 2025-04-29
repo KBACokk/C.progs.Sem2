@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libfuncs.so -o libfuncs.so CMakeFiles/funcs.dir/lib.c.o 
