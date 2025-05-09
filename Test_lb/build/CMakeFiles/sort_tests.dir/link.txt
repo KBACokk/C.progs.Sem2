@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/sort_tests.dir/test_sorts.c.o CMakeFiles/sort_tests.dir/sort.c.o  -o sort_tests  -lcmocka 

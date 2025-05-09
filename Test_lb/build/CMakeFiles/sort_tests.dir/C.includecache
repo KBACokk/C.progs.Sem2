@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Egor/Desktop/Test_lb/sort.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+sort.h
+/mnt/c/Users/Egor/Desktop/Test_lb/sort.h
+
+/mnt/c/Users/Egor/Desktop/Test_lb/sort.h
+
+/mnt/c/Users/Egor/Desktop/Test_lb/test_sorts.c
+stddef.h
+-
+stdarg.h
+-
+setjmp.h
+-
+cmocka.h
+-
+sort.h
+/mnt/c/Users/Egor/Desktop/Test_lb/sort.h
+

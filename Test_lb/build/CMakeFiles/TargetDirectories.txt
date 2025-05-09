@@ -1,0 +1,4 @@
+/mnt/c/Users/Egor/Desktop/Test_lb/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Egor/Desktop/Test_lb/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Egor/Desktop/Test_lb/build/CMakeFiles/test.dir
+/mnt/c/Users/Egor/Desktop/Test_lb/build/CMakeFiles/sort_tests.dir

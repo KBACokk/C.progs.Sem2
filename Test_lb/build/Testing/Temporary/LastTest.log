@@ -1,0 +1,25 @@
+Start testing: May 09 18:47 +07
+----------------------------------------------------------
+1/1 Testing: SortTests
+1/1 Test: SortTests
+Command: "/mnt/c/Users/Egor/Desktop/Test_lb/build/sort_tests"
+Directory: /mnt/c/Users/Egor/Desktop/Test_lb/build
+"SortTests" start time: May 09 18:47 +07
+Output:
+----------------------------------------------------------
+[==========] Running 2 test(s).
+[ RUN      ] test_insert_sort
+[       OK ] test_insert_sort
+[ RUN      ] test_fill_functions
+[       OK ] test_fill_functions
+[==========] 2 test(s) run.
+[  PASSED  ] 2 test(s).
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SortTests" end time: May 09 18:47 +07
+"SortTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 09 18:47 +07
