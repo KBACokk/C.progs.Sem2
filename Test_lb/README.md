@@ -2,7 +2,8 @@
 
 * Краткое описание: В данной раоте было реализовано применение unit-тестов для проверки корректности работы программы. Реализация была осуществлена с помощью Фреймворка cmoka. *
   
-![image](https://github.com/user-attachments/assets/4f739693-f447-4646-8ebe-eccd908e4e6e)
+![image](https://github.com/user-attachments/assets/5aecc95e-66e0-4c32-ae14-c58aa024fcf6)
+
 
 
 ---
