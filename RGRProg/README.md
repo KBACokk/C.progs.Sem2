@@ -39,13 +39,13 @@ ctest -V --output-on-failure
 ---
 
 ## Ссылки на все коды программы
-- 📌 [Реализация](/RGRProg/deck_operations.c)
-- 📌 [Реализация](/RGRProg/game_logic.c)
-- 📌 [Реализация](/RGRProg/user_management.c)
-- 📌 [Реализация](/RGRProg/main.c)
-- 📌 [Реализация](/RGRProg/test_poker.c)
-- 📌 [Реализация](/RGRProg/testing.c)
-- 📌 [Реализация](/RGRProg/CMakeLists.c)
+- 📌 [Реализация Операций для каточной колоды](/RGRProg/deck_operations.c)
+- 📌 [Реализация игровой логики](/RGRProg/game_logic.c)
+- 📌 [Реализация связи с пользователем](/RGRProg/user_management.c)
+- 📌 [Реализация основная функция](/RGRProg/main.c)
+- 📌 [Реализация объявление функции для проверки](/RGRProg/test_poker.c)
+- 📌 [Реализация реализация cmocka тестов](/RGRProg/testing.c)
+- 📌 [Реализация сборка проекта](/RGRProg/CMakeLists.c)
 
 
 
