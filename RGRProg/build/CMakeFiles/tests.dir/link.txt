@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/tests.dir/testing.c.o CMakeFiles/tests.dir/test_poker.c.o  -o tests  -lcmocka 

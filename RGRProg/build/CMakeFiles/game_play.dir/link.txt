@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/game_play.dir/user_management.c.o CMakeFiles/game_play.dir/deck_operations.c.o CMakeFiles/game_play.dir/game_logic.c.o CMakeFiles/game_play.dir/main.c.o  -o game_play 

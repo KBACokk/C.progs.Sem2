@@ -1,0 +1,25 @@
+Start testing: May 17 12:38 +07
+----------------------------------------------------------
+1/1 Testing: Poker_game
+1/1 Test: Poker_game
+Command: "/mnt/c/Users/Egor/Desktop/RGRProg/build/tests"
+Directory: /mnt/c/Users/Egor/Desktop/RGRProg/build
+"Poker_game" start time: May 17 12:38 +07
+Output:
+----------------------------------------------------------
+[==========] Running 2 test(s).
+[ RUN      ] test_hash_password
+[       OK ] test_hash_password
+[ RUN      ] test_load_users
+[       OK ] test_load_users
+[==========] 2 test(s) run.
+[  PASSED  ] 2 test(s).
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Poker_game" end time: May 17 12:38 +07
+"Poker_game" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 17 12:38 +07

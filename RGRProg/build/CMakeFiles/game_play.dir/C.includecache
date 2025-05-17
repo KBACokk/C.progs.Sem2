@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Egor/Desktop/RGRProg/deck_operations.c
+poker.h
+/mnt/c/Users/Egor/Desktop/RGRProg/poker.h
+
+/mnt/c/Users/Egor/Desktop/RGRProg/game_logic.c
+poker.h
+/mnt/c/Users/Egor/Desktop/RGRProg/poker.h
+
+/mnt/c/Users/Egor/Desktop/RGRProg/main.c
+poker.h
+/mnt/c/Users/Egor/Desktop/RGRProg/poker.h
+
+/mnt/c/Users/Egor/Desktop/RGRProg/poker.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+ctype.h
+-
+sys/stat.h
+-
+dirent.h
+-
+
+/mnt/c/Users/Egor/Desktop/RGRProg/user_management.c
+poker.h
+/mnt/c/Users/Egor/Desktop/RGRProg/poker.h
+

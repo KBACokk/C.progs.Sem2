@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/poker_tests.dir/test_poker.c.o  -o poker_tests  -lcmocka 

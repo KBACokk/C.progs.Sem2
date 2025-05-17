@@ -1,0 +1,5 @@
+/mnt/c/Users/Egor/Desktop/RGRProg/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Egor/Desktop/RGRProg/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Egor/Desktop/RGRProg/build/CMakeFiles/test.dir
+/mnt/c/Users/Egor/Desktop/RGRProg/build/CMakeFiles/tests.dir
+/mnt/c/Users/Egor/Desktop/RGRProg/build/CMakeFiles/game_play.dir
